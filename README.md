@@ -2,7 +2,7 @@
 A repository containing docker images of vulnerable packages (e.g. backdoored vsftpd) etc. for testing exploits/scanners and to not waste time on dependencies and shit.
 
 ## Vsftpd 2.3.4 (backdoored)
-It was backdoored and the trigger was :) in username which starts a bind shell on port 6200 executing shell giving remote root access to anyone exploiting it.
+It was backdoored and the trigger was `:)` in username which starts a bind shell on port **6200**, executing the shell gives remote root access to anyone connecting to that port.
 
 #### Manually Building & Running (docker image):
 
